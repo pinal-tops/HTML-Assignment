@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 background-img</title>
+    <style>
+        .background-img{
+            background-image: url(./Chrysanthemum.jpg);
+        }
+        div{
+            height: 400px;
+            margin: 10px;
+        }
+
+        .background-repeat{
+            background-image: url(./Chrysanthemum.jpg);
+            background-repeat: no-repeat;
+        }
+        .background-attachment{
+             background-image: url(https://picsum.photos/id/237/1000/500.jpg.png); /*[1000-width & 500height] */
+        }
+        .background-position{
+            background-image: url(./Chrysanthemum.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            /* background-position: right; */
+            /* background-position: left; */
+            /* background-position: 200px; */
+        }
+    </style>
+</head>
+<body>
+    <h1>background-img</h1>
+    <div class="background-img">background-image Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, ad, quae maxime adipisci vitae reiciendis doloribus repellat ducimus et necessitatibus officia nemo earum unde voluptatem praesentium, id quaerat architecto at.</div>
+    <div><p></p></div>
+    <div class="background-attachment">background-attachment</div>
+
+    <div class="background-repeat">background-repeat</div>
+    
+    <div class="background-position">background-position</div>
+</body>
+</html>
